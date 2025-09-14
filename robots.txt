@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://0hardytom.github.io/sitemap.xml
+Sitemap: https://hardymusic.co.uk/sitemap.xml
