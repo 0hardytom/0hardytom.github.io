@@ -216,51 +216,52 @@
       "name": "Identifying Extreme Emission Line Galaxies (EELGs) from VLT MUSE observations",
       "summary": "",
       "highlights": ["Supervised by Prof Alastair Edge"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "startDate": "2025-09",
+      "endDate": "Present"
     },
         {
       "name": "Machine Learning Tools to Detect Gravitational Wave Mismodelling",
       "summary": "",
       "highlights": ["Supervised by Dr James Alvey"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "startDate": "2025-06",
+      "endDate": "2025-08"
     },
         {
-      "name": "A Comprehensive Investigation of Colloidal Crystalline Freezing Using Massively-Parallelised Monte Carlo Simulations",
+      "name": "Colloidal Crystalline Freezing Using Massively-Parallelised Monte Carlo Simulations",
       "summary": "",
       "highlights": ["Supervised by Dr Nicholas Bristowe"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "startDate": "2024-09",
+      "endDate": "2025-04"
+    },
+    {
+      "name": "A Comprehensive Photometric Model for the W-Type Contact Binary GW-CEP",
+      "summary": "",
+      "highlights": ["Supervised by Prof Mark Swinbank & Prof Alastair Edge"],
+      "startDate": "2024-09",
+      "endDate": "2024-12"
     },
         {
       "name": "Source Extraction for HI-Detected Radio Galaxies",
       "summary": "",
       "highlights": ["Supervised by Dr Catherine Hale, Dr Anastasia Ponomareva, Prof Matt Jarvis"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
-    },
-        {
-      "name": "A Comprehensive Photometric Model for the W-Type Contact Binary GW-CEP",
-      "summary": "",
-      "highlights": ["Supervised by Prof Mark Swinbank & Prof Alastair Edge"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
-    },
-    {
-      "name": "The Impact of AI in Physics Education: A Comprehensive Review from GCSE to University Levels",
-      "summary": "",
-      "highlights": ["Supervised by Dr Will Yeadon"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "startDate": "2024-07",
+      "endDate": "2024-08"
     },
     {
       "name": "Dispersion Models For Circular Birefringence in Common Biological Molecules",
       "summary": "",
       "highlights": ["Supervised by Prof Andrew Monkman"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "startDate": "2024-01",
+      "endDate": "2024-04"
+    },
+    {
+      "name": "The Impact of AI in Physics Education: A Comprehensive Review from GCSE to University Levels",
+      "summary": "",
+      "highlights": ["Supervised by Dr Will Yeadon"],
+      "startDate": "2023-07",
+      "endDate": "2023-08"
     }
+
 
   ]
 }
