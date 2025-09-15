@@ -214,49 +214,49 @@
   "projects": [
     {
       "name": "Identifying Extreme Emission Line Galaxies (EELGs) from VLT MUSE observations",
-      "summary": "",
+      "summary": "Master's Thesis: Durham University @ Centre for Extragalactic Astronomy",
       "highlights": ["Supervised by Prof Alastair Edge"],
       "startDate": "2025-09",
       "endDate": "Present"
     },
         {
       "name": "Machine Learning Tools to Detect Gravitational Wave Mismodelling",
-      "summary": "",
+      "summary": "Summer Research: Cambridge University @ IoA",
       "highlights": ["Supervised by Dr James Alvey"],
       "startDate": "2025-06",
       "endDate": "2025-08"
     },
         {
       "name": "Colloidal Crystalline Freezing Using Massively-Parallelised Monte Carlo Simulations",
-      "summary": "",
+      "summary": "3rd Year Computing Project: Durham University @ CMP",
       "highlights": ["Supervised by Dr Nicholas Bristowe"],
       "startDate": "2024-09",
       "endDate": "2025-04"
     },
     {
       "name": "A Comprehensive Photometric Model for the W-Type Contact Binary GW-CEP",
-      "summary": "",
+      "summary": "3rd Year Advanced Laboratory (Bachelor's Diss Equiv): Durham University @ AstroLab",
       "highlights": ["Supervised by Prof Mark Swinbank & Prof Alastair Edge"],
       "startDate": "2024-09",
       "endDate": "2024-12"
     },
         {
       "name": "Source Extraction for HI-Detected Radio Galaxies",
-      "summary": "",
+      "summary": "Summer Research: Oxford University @ Astrophysics",
       "highlights": ["Supervised by Dr Catherine Hale, Dr Anastasia Ponomareva, Prof Matt Jarvis"],
       "startDate": "2024-07",
       "endDate": "2024-08"
     },
     {
       "name": "Dispersion Models For Circular Birefringence in Common Biological Molecules",
-      "summary": "",
+      "summary": "2nd Year extended lab (~9 Weeks): Durham University @ Optics",
       "highlights": ["Supervised by Prof Andrew Monkman"],
       "startDate": "2024-01",
       "endDate": "2024-04"
     },
     {
       "name": "The Impact of AI in Physics Education: A Comprehensive Review from GCSE to University Levels",
-      "summary": "",
+      "summary": "Summer Research: Durham University @ PhES",
       "highlights": ["Supervised by Dr Will Yeadon"],
       "startDate": "2023-07",
       "endDate": "2023-08"
