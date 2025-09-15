@@ -2,11 +2,29 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Tom Hardy
+    - name: Email
+      value: tom [at] hardymusic [dot] co [dot] uk
+    - name: Summary
+      value: Final-Year Durham MPhys Student. Award-Winning Composer & Arranger.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Summer Research Internship
+      institution: Institute of Astronomy, Cambridge
+      year: Summer 2025
+      description:
+        - "Supervisor: Dr James Alvey"
+        - "Project Title: Machine Learning Tools to Detect Gravitational Wave Mismodelling"
+        - asdasd
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
+
 
 - title: Education
   type: time_table
@@ -24,26 +42,6 @@
     - title: Federal teaching diploma
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
       description:
         - Description 1.
         - Description 2.

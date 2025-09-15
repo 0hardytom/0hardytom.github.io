@@ -1,36 +1,54 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Tom Hardy",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "tom at hardymusic dot co dot uk ",
+    "url": "hardymusic.co.uk",
+    "summary": "Final-Year Durham MPhys (w/Astronomy) Student. Award-Winning Composer & Arranger.",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Institute of Astronomy, Cambridge University",
+      "position": "Summer Research Intern (Astronomy)",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "Jun-25",
+      "endDate": "Aug-25",
+      "summary": "Simulation-based-inference neural network engineering for detector noise characterisation on GW detectors. Developed neural networks to process complex frequency-domain gravitational wave data and detect both localised and model-wide distortions within a frequentist statistical framework. Use of torch, jax, ripple, jimgw and multiprocessing to carry out high-performance GPU computing. Following my end-of-project presentation I was invited back to speak at the IoA's 30-year anniversary event, alongside Prof Nikku Madhusudhan and Dr Will Handley. Supervised by Dr James Alvey"
+    },
+    {
+      "name": "Department of Physics, Oxford University",
+      "position": "Summer Research Intern (Astrophysics)",
+      "url": "https://example.com",
+      "startDate": "Jul-24",
+      "endDate": "Aug-24",
+      "summary": "Research Intern in Hintze centre for Astrophysical Surveys/Galaxies sub-group. I built Catherine Hale and Matt Jarvis' PHiSEP, a neutral hydrogen source extraction pipeline using Aaron Robotham's ProFound. The project was initally designed to evaluate the effectivity of segmentation extractors on HI-datacubes, and led to the development of an MPI-enabled HPC pipeline (using python and R) for MIGHTEE-HI/COSMOS, and simulated SKA data. Attended the Breakthrough Discuss and Steven Balbus conferences. Supervised by Dr Catherine Hale, Dr Anastasia Ponomareva and Prof Matt Jarvis."
+    },
+    {
+      "name": "Department of Physics, Durham University",
+      "position": "Summer Research Intern (LLMs)",
+      "url": "https://example.com",
+      "startDate": "Jul-23",
+      "endDate": "Aug-23",
+      "summary": "A comprehensive statistical investigation into the power of non-specialist Large Language Models (and prompting technique) on GCSE, A-, and University levels, with the intent of creating deep learning-ready database for LLM training . The project involved use of python regex infrastructure to transcribe large PDF data (for analysis); large scale non-numerical data storage; and GPT-API usage. Submitted to the Journal of Physics Education in mid 2023 and published in early 2024; this project also led to a current Laidlaw Scholarship project utilising the data to train specialist GPTs"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Durham",
+      "location": "Durham, Co. Durham, UK",
+      "url": "https://www.durham.ac.uk/",
+      "area": "Physics with Astronomy. Triple 1st Class: 4th Year In Progress.",
+      "studyType": "MPhys (FF3N)",
+      "startDate": "2022-07",
+      "endDate": "2026-06",
+      "score": "Triple 1st Class. 4th Year In Progress.",
+      "courses": ["Statistical Physics, Solid State Physics, Soft Matter, Symmetry and Excitations, Broken Symmetry, Exoplanets, Cosmology, Particle Physics, Advanced Quantum Mechanics", 
+      "Classical Electromagnetism, Quantum Mechanics, Quantum Theory, Theoretical Classical Mechanics, Optics, Solid State Physics, Stellar Structure, Galaxy Morphology & Evolution, Instrumentation, Differential Equations, Vector Calculus",
+      "Special Relativity, Optics, Electromagnetism, Classical Mechanics, Introduction to Quantum, Introduction to Cosmology, Celestial Astronomy and the Solar System, Introduction to Galaxy evolution, Real Analysis, Linear Algebra, Vector Calculus, Differential Equations, Group Theory"]
     }
   ],
   "volunteer": [
@@ -43,19 +61,6 @@
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [

@@ -2,10 +2,10 @@
 layout: page
 title: research
 permalink: /research/
-description: A collection of my physics research experience.
+description: 
 nav: true
 nav_order: 1
-display_categories: [work, fun]
+display_categories: [summer projects,academic]
 horizontal: false
 ---
 
