@@ -14,7 +14,7 @@
     {
       "name": "Institute of Astronomy, Cambridge University",
       "position": "Summer Research Intern (Astronomy)",
-      "url": "https://example.com",
+      "url": "https://www.ast.cam.ac.uk/",
       "startDate": "Jun-25",
       "endDate": "Aug-25",
       "summary": "Simulation-based-inference neural network engineering for detector noise characterisation on GW detectors. Developed neural networks to process complex frequency-domain gravitational wave data and detect both localised and model-wide distortions within a frequentist statistical framework. Use of torch, jax, ripple, jimgw and multiprocessing to carry out high-performance GPU computing. Following my end-of-project presentation I was invited back to speak at the IoA's 30-year anniversary event, alongside Prof Nikku Madhusudhan and Dr Will Handley. Supervised by Dr James Alvey"
@@ -22,7 +22,7 @@
     {
       "name": "Department of Physics, Oxford University",
       "position": "Summer Research Intern (Astrophysics)",
-      "url": "https://example.com",
+      "url": "https://www.physics.ox.ac.uk/research/subdepartment/astrophysics",
       "startDate": "Jul-24",
       "endDate": "Aug-24",
       "summary": "Research Intern in Hintze centre for Astrophysical Surveys/Galaxies sub-group. I built Catherine Hale and Matt Jarvis' PHiSEP, a neutral hydrogen source extraction pipeline using Aaron Robotham's ProFound. The project was initally designed to evaluate the effectivity of segmentation extractors on HI-datacubes, and led to the development of an MPI-enabled HPC pipeline (using python and R) for MIGHTEE-HI/COSMOS, and simulated SKA data. Attended the Breakthrough Discuss and Steven Balbus conferences. Supervised by Dr Catherine Hale, Dr Anastasia Ponomareva and Prof Matt Jarvis."
@@ -30,176 +30,237 @@
     {
       "name": "Department of Physics, Durham University",
       "position": "Summer Research Intern (LLMs)",
-      "url": "https://example.com",
+      "url": "https://www.durham.ac.uk/departments/academic/physics/",
       "startDate": "Jul-23",
       "endDate": "Aug-23",
-      "summary": "A comprehensive statistical investigation into the power of non-specialist Large Language Models (and prompting technique) on GCSE, A-, and University levels, with the intent of creating deep learning-ready database for LLM training . The project involved use of python regex infrastructure to transcribe large PDF data (for analysis); large scale non-numerical data storage; and GPT-API usage. Submitted to the Journal of Physics Education in mid 2023 and published in early 2024; this project also led to a current Laidlaw Scholarship project utilising the data to train specialist GPTs"
+      "summary": "A comprehensive statistical investigation into the power of non-specialist Large Language Models (and prompting technique) on GCSE, A-, and University levels, with the intent of creating deep learning-ready database for LLM training . The project involved use of python regex infrastructure to transcribe large PDF data (for analysis); large scale non-numerical data storage; and GPT-API usage. Submitted to the Journal of Physics Education in mid 2023 and published in early 2024; this project also led to a current Laidlaw Scholarship project utilising the data to train specialist GPTs. Supervised by Dr Will Yeadon"
     }
   ],
   "education": [
     {
       "institution": "University of Durham",
       "location": "Durham, Co. Durham, UK",
-      "url": "https://www.durham.ac.uk/",
+      "url": "https://www.durham.ac.uk/departments/academic/physics/",
       "area": "Physics with Astronomy. Triple 1st Class: 4th Year In Progress.",
       "studyType": "MPhys (FF3N)",
-      "startDate": "2022-07",
+      "startDate": "2022-09",
       "endDate": "2026-06",
       "score": "Triple 1st Class. 4th Year In Progress.",
-      "courses": ["Statistical Physics, Solid State Physics, Soft Matter, Symmetry and Excitations, Broken Symmetry, Exoplanets, Cosmology, Particle Physics, Advanced Quantum Mechanics", 
-      "Classical Electromagnetism, Quantum Mechanics, Quantum Theory, Theoretical Classical Mechanics, Optics, Solid State Physics, Stellar Structure, Galaxy Morphology & Evolution, Instrumentation, Differential Equations, Vector Calculus",
-      "Special Relativity, Optics, Electromagnetism, Classical Mechanics, Introduction to Quantum, Introduction to Cosmology, Celestial Astronomy and the Solar System, Introduction to Galaxy evolution, Real Analysis, Linear Algebra, Vector Calculus, Differential Equations, Group Theory"]
+      "courses": ["Thesis: Identifying Extreme Emission Line Galaxies (EELGs) from VLT MUSE observations.",
+      "Fourth Year (In Progress). Courses: Radiative Astrophysics, Advanced Instrumentation, Theoretical Cosmology, General Relativity, Quantum Computing, ",
+      "Third Year (1st Class). Courses: Statistical Physics, Solid State Physics, Soft Matter, Symmetry and Excitations, Broken Symmetry, Exoplanets, Cosmology, Particle Physics, Advanced Quantum Mechanics", 
+      "Second Year (1st Class). Courses: Classical Electromagnetism, Quantum Mechanics, Quantum Theory, Theoretical Classical Mechanics, Optics, Solid State Physics, Stellar Structure, Galaxy Morphology & Evolution, Instrumentation, Differential Equations, Vector Calculus",
+      "First Year (1st Class). Courses: Special Relativity, Optics, Electromagnetism, Classical Mechanics, Introduction to Quantum, Introduction to Cosmology, Celestial Astronomy and the Solar System, Introduction to Galaxy evolution, Real Analysis, Linear Algebra, Vector Calculus, Differential Equations, Group Theory"]
+    },
+    {
+      "institution": "John Hampden Grammar School",
+      "location": "High Wycombe, Bucks, UK",
+      "url": "https://www.jhgs.bucks.sch.uk/",
+      "area": "A*A*A*A*A*:Maths, Physics, Further Maths, Music, EPQ. All 11 GCSEs at Grade 9",
+      "studyType": "A-Levels and GCSEs",
+      "startDate": "2015-09",
+      "endDate": "2022-06",
+      "score": "Five A-Levels @ A*. 11 GCSEs @ grade 9 (Max Score)",
+      "courses": ["Nationally-Leading A-level and GCSE results (max score)","Founding President of JHGS' Mathematical Society","Deputy Head Boy"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Department of Physics",
+      "location": "Durham, Co. Durham, UK",
+      "position": "SVC Co-Chair and BoS Rep",
+      "url": "https://www.durham.ac.uk/departments/academic/physics/welcome/",
+      "startDate": "2022-09",
+      "endDate": "Present",
+      "summary": "Co-Chair (with Prof Alis Deason) of the department's Staff-Student Consultative Committee managing 10-20 student representatives each year. Representative of the commitee to the department's Board of Studies, chaired by Prof Paula Chadwick. I have helped give the Introduction to the Physics Department lecture for 2023,2024 and 2025."
+      // "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    },
+    {
+      "organization": "Department of Performing Arts",
+      "location": "Durham, Co. Durham, UK",
+      "position": "Music Director: DUBB",
+      "url": "https://www.instagram.com/dubigband/?hl=en",
+      "startDate": "2024-09",
+      "endDate": "Present",
+      "summary": "Director of the Nationally-Leading Durham Unviersity Big Band; the most competetive Durham instrumental ensemble.",
+      "highlights": ["2024-5 National Tour: Unspoken Voices. Awarded Full Palatinate for Outstanding Achievement in Music for directing the tour", 
+      "2025-6 National Tour: A-That's Freedom!"]
+    },
+    {
+      "organization": "Department of Performing Arts",
+      "location": "Durham, Co. Durham, UK",
+      "position": "Music Director: DUJO",
+      "url": "https://www.instagram.com/dujazzorchestra/?hl=en",
+      "startDate": "2023-09",
+      "endDate": "2024-06",
+      "summary": "Director of the Durham University Jazz Orchestra. 2023-4 Programme: A Night in New York."
+    },
+    {
+      "organization": "Department of Performing Arts",
+      "location": "Durham, Co. Durham, UK",
+      "position": "Creative Director: DU Jazz Society",
+      "url": "https://www.instagram.com/dujazzorchestra/?hl=en",
+      "startDate": "2022-09",
+      "endDate": "2023-06",
+      "summary": "Coordinated the Sunday Night Jazz Jam each week (attended by ~200 each night). Produced and arranged for JazzSoc gigs throughout the year."
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Florence Nightingale Award",
+      "date": "2025-07",
+      "awarder": "Department of Physics, Durham University",
+      "url": "https://www.durham.ac.uk/departments/academic/physics/labs/skills/graphical-excellence/",
+      "summary": "Award for Graphical Excellence in laboratory reports: awarded to a single student in each year. Nominated for my Astrolab report: A Comprehensive Photometric Model for the Contact Binary GW-CEP"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Full Palatinate",
+      "date": "2025-06",
+      "awarder": "Department of Performing Arts, Durham University",
+      // "url": "https://en.wikipedia.org/wiki/Sporting_colours",
+      "summary": "Awarded for Outstanding Achievement in Music for my 2024-5 DUBB Tour: Unspoken Voices."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "Module Award: 1st Year Laboratory",
+      "date": "2023-07",
+      "awarder": "Department of Physics, Durham University",
+      // "url": "https://en.wikipedia.org/wiki/Sporting_colours",
+      "summary": "Awarded for highest mark in the year for 1st year laboratory."
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "The Impact of AI in Physics Education: A Comprehensive Review from GCSE to University Levels",
+      "publisher": "Physics Education",
+      "releaseDate": "2024-02-06",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-6552/ad1fa2",
+      "summary": "The paper produced from my 1st Year Summer research. From Abstract: With the rapid evolution of artificial intelligence (AI), its potential implications for higher education have become a focal point of interest. This study delves into the capabilities of AI in physics education and offers actionable AI policy recommendations. Using openAI’s flagship gpt-3.5-turbo large language model (LLM), we assessed its ability to answer 1337 physics exam questions spanning general certificate of secondary education (GCSE), A-Level, and introductory university curricula. "
     }
   ],
   "skills": [
+    {
+      "name": "Astronomy",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Simulation Based Inference",
+        "Source Extraction (GE and Segmentation)",
+        "Time-Domain Astronomy",
+        "CCD Astronomy (14-30in reflectors)",
+        "IFU Spectroscopy (VLT MUSE)",
+        "Galaxy Evolution & Survey Astronomy"
+      ]
+    },
     {
       "name": "Physics",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Theoretical Soft Matter (Simulations)",
+        "Solid-State (Symmetry Breaking)",
+        "Bayesian Inference",
+        "Science Communication"
+      ]
+    },
+    {
+      "name": "Computing",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "High Performance Computing (+GPU)",
+        "jax & torch (ML and NNs)",
+        "MPI and Massive Parallelisation",
+        "python, R & rust"
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
+  // "languages": [
+  //   {
+  //     "language": "German",
+  //     "fluency": "Native speaker",
+  //     "icon": ""
+  //   },
+  //   {
+  //     "language": "English",
+  //     "fluency": "Fluent",
+  //     "icon": ""
+  //   }
+  // ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Astronomy",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "LSST & SKA-Mid (Large Survey Era)",
+        "Observation-led Astronomy",
+        "Simulation Based Inference",
+        "Galaxy Evolution",
+        "AGN Multi Wavelength Emission"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  // "references": [
+  //   {
+  //     "name": "Professor John Doe",
+  //     "icon": "fa-solid fa-laptop",
+  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+  //   },
+  //   {
+  //     "name": "Professor John Doe",
+  //     "icon": "fa-solid fa-thumbtack",
+  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+  //   }
+  // ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "name": "Identifying Extreme Emission Line Galaxies (EELGs) from VLT MUSE observations",
+      "summary": "",
+      "highlights": ["Supervised by Prof Alastair Edge"],
       "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "endDate": "2018-01-01"
+    },
+        {
+      "name": "Machine Learning Tools to Detect Gravitational Wave Mismodelling",
+      "summary": "",
+      "highlights": ["Supervised by Dr James Alvey"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01"
+    },
+        {
+      "name": "A Comprehensive Investigation of Colloidal Crystalline Freezing Using Massively-Parallelised Monte Carlo Simulations",
+      "summary": "",
+      "highlights": ["Supervised by Dr Nicholas Bristowe"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01"
+    },
+        {
+      "name": "Source Extraction for HI-Detected Radio Galaxies",
+      "summary": "",
+      "highlights": ["Supervised by Dr Catherine Hale, Dr Anastasia Ponomareva, Prof Matt Jarvis"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01"
+    },
+        {
+      "name": "A Comprehensive Photometric Model for the W-Type Contact Binary GW-CEP",
+      "summary": "",
+      "highlights": ["Supervised by Prof Mark Swinbank & Prof Alastair Edge"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01"
+    },
+    {
+      "name": "The Impact of AI in Physics Education: A Comprehensive Review from GCSE to University Levels",
+      "summary": "",
+      "highlights": ["Supervised by Dr Will Yeadon"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01"
+    },
+    {
+      "name": "Dispersion Models For Circular Birefringence in Common Biological Molecules",
+      "summary": "",
+      "highlights": ["Supervised by Prof Andrew Monkman"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01"
     }
+
   ]
 }
