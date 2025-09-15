@@ -51,3 +51,39 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/*****************************************************************************
+* About Page Header
+*****************************************************************************/
+.about-header {
+  .post-title {
+    font-size: 3rem;
+  }
+  .desc {
+    font-size: 1.5rem;
+    width: 50%;
+  }
+}
+
+.hero-section {
+  background-image: url('/assets/img/12.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.hero-section .about-header {
+  text-align: left;
+}
+
+.hero-section .post-header .post-title,
+.hero-section .post-header .desc,
+.hero-section .post-header .desc a {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.content-section {
+  padding: 2rem 0;
+}
