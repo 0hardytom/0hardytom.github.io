@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-music",
           title: "music",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/music/";
@@ -424,15 +424,20 @@ ninja.data = [{
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-astrolab-gw-cep-photometry",
-          title: 'Astrolab: GW-CEP Photometry',
+          title: 'AstroLab: GW-CEP Photometry',
           description: "A Comprehensive Photometric Model of the W-Type Contact Binary GW-CEP.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_astrolab/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-gw-mist",
+          title: 'gw-mist',
+          description: "Machine Learning Tools to Detect Model Mispsecification in Gravitational Astronomy.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/1_gmist/";
+            },},{id: "projects-phisep",
+          title: 'PHiSEP',
+          description: "Source Extraction for Neutral-Hydrogen-Detected Radio Galaxies",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_phisep/";
             },},{
         id: 'social-email',
         title: 'email',
