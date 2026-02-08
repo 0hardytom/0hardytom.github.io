@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-__Hello!__ I'm a __fourth-year physics with astronomy MPhys__ student at __Durham University__ broadly interested in __observation-led astronomy in the Large Survey Era__ (this usually involves high-z galaxies, exoplanets or AGN emission). 
+__Hello!__ I'm a __fourth-year physics with astronomy MPhys__ student at __Durham University__ broadly interested in __observation-led astronomy__ around the behaviour and evolution of galaxies, AGN and black holes.
 
 With three summers' research experience (including at __Cambridge's IoA__ and __Oxford Astrophysics__), I've covered a range of fields, including _simulation-based-inference for LIGO_, building a _HI source extraction pipeline for MeerKAT_ and solving the _light-transfer-time equation to find third bodies in binary orbit timing_.  Currently, I’m working on a master’s thesis using __VLT-MUSE extreme emission line galaxies (Green Peas) as spectral analogues for JWST epoch of reionization candidates__, supervised by [Prof Alastair Edge](https://astro.dur.ac.uk/~ace/). I am incredibly excited about the future of astrophysics, and spend a lot of my time being inspired by the work of others. 
 
