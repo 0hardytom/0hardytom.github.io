@@ -1,47 +1,30 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Under Maintenance | Tom Hardy</title>
+    <title>Not found · Tom Hardy</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
     <style>
-      html, body {
-        margin: 0;
-        height: 100%;
-      }
-      body {
-        background: #111 url("/maintenance-landscape.jpg") center / cover no-repeat;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        font-family: "Archivo Black", "Arial Black", sans-serif;
-      }
-      h1 {
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        padding: 20vh 16px 8vh;
-        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
-        color: rgba(255, 255, 255, 0.35);
-        -webkit-text-stroke: max(2px, 0.02em) #fff;
-        /* "MAINTENANCE" is ~8.3em wide in Archivo Black; fit it to the screen */
-        font-size: min(calc((100vw - 32px) / 8.6), 20vh);
-        line-height: 1;
-        font-weight: 400;
-        text-align: center;
-        text-transform: uppercase;
-      }
-      @media (orientation: portrait) {
-        body {
-          background-image: url("/maintenance-portrait.jpg");
-        }
-      }
+      .lost { min-height: 100vh; min-height: 100svh; display: grid; place-items: center; text-align: center; padding: var(--gutter); }
+      .lost .hero__name { font-size: clamp(5rem, 18vw, 12rem); }
+      .lost p { color: var(--on-night-2); margin: 1rem auto 2rem; max-width: 30ch; }
     </style>
   </head>
   <body>
-    <h1>Under<br>Maintenance</h1>
+    <main class="hero lost">
+      <div class="hero__wash" aria-hidden="true"></div>
+      <div>
+        <p class="eyebrow">Error 404</p>
+        <h1 class="hero__name">Lost signal</h1>
+        <p>There's nothing at this address.</p>
+        <a class="pill pill--science" href="/">Back to the homepage</a>
+      </div>
+    </main>
   </body>
 </html>
