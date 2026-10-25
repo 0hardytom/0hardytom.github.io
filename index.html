@@ -1,47 +1,439 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Under Maintenance | Tom Hardy</title>
+    <title>Tom Hardy · Astrophysicist &amp; Musician</title>
+    <meta name="description" content="Tom Hardy: astrophysics PhD student at the University of Cambridge (IoA) studying galaxy evolution, and award-winning pianist and orchestrator.">
+    <meta name="theme-color" content="#0d0f13">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="canonical" href="https://hardymusic.co.uk/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tom Hardy · Astrophysicist & Musician">
+    <meta property="og:description" content="Astrophysics PhD student at Cambridge, and pianist and orchestrator.">
+    <meta property="og:image" content="https://hardymusic.co.uk/img/og.jpg">
+    <meta property="og:url" content="https://hardymusic.co.uk/">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <style>
-      html, body {
-        margin: 0;
-        height: 100%;
-      }
-      body {
-        background: #111 url("/maintenance-landscape.jpg") center / cover no-repeat;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        font-family: "Archivo Black", "Arial Black", sans-serif;
-      }
-      h1 {
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        padding: 20vh 16px 8vh;
-        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
-        color: rgba(255, 255, 255, 0.35);
-        -webkit-text-stroke: max(2px, 0.02em) #fff;
-        /* "MAINTENANCE" is ~8.3em wide in Archivo Black; fit it to the screen */
-        font-size: min(calc((100vw - 32px) / 8.6), 20vh);
-        line-height: 1;
-        font-weight: 400;
-        text-align: center;
-        text-transform: uppercase;
-      }
-      @media (orientation: portrait) {
-        body {
-          background-image: url("/maintenance-portrait.jpg");
-        }
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="img/hero-1800.webp" media="(min-aspect-ratio: 5/4)">
+    <link rel="preload" as="image" href="img/hero-portrait.webp" media="(max-aspect-ratio: 5/4)">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
   </head>
   <body>
-    <h1>Under<br>Maintenance</h1>
+    <!-- shared schematic EELG spectrum (rest frame 4700-6900 Å), used in the hero and the divider -->
+    <svg class="sprite" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id="spectrum-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+          <stop offset="0" stop-color="#3d7bff"/>
+          <stop offset=".073" stop-color="#22c4ff"/>
+          <stop offset=".14" stop-color="#3cf0b0"/>
+          <stop offset=".36" stop-color="#b9ec4a"/>
+          <stop offset=".5" stop-color="#ffd24a"/>
+          <stop offset=".64" stop-color="#ff9238"/>
+          <stop offset=".847" stop-color="#ff4b3a"/>
+          <stop offset="1" stop-color="#c8243a"/>
+        </linearGradient>
+        <path id="spec-line" fill="none" stroke="url(#spectrum-grad)" stroke-width="1.5" vector-effect="non-scaling-stroke" d="M0 148.4L8 148.7L15 147.8L23 148.8L31 148.0L38 148.3L46 148.8L53 148.1L61 148.9L69 148.2L76 148.8L84 140.8L85 136.4L86 131.6L86 128.9L87 126.2L88 124.8L89 125.5L90 129.1L91 133.4L91 136.6L92 141.8L93 143.3L94 146.1L95 147.5L95 148.2L96 148.2L97 147.5L98 148.6L99 148.0L100 147.9L107 148.3L115 148.0L122 148.8L130 148.8L138 128.8L139 120.0L139 112.6L140 106.6L141 103.2L142 104.4L143 109.2L143 115.5L144 123.8L145 132.1L146 137.7L147 142.2L148 144.4L148 146.3L149 147.8L150 147.1L151 148.6L152 148.2L152 147.7L160 144.7L161 139.7L162 132.6L163 118.9L163 100.8L164 78.6L165 53.5L166 32.1L167 16.3L167 12.1L168 19.6L169 37.4L170 60.1L171 84.3L172 106.6L172 122.8L173 135.0L174 140.8L175 144.7L176 146.0L176 147.1L177 148.3L178 148.2L179 147.8L187 148.9L194 148.2L202 148.6L209 148.7L217 148.8L225 147.7L232 148.7L240 148.5L248 148.3L255 147.5L263 148.8L271 148.2L278 148.0L286 147.5L293 147.6L301 147.5L309 148.5L316 148.2L324 148.3L332 147.5L339 147.3L347 148.7L355 148.6L362 148.5L370 148.5L377 148.1L385 148.0L393 148.5L400 148.9L408 148.2L416 148.3L423 148.0L431 147.4L439 147.8L446 148.1L454 147.9L461 147.8L469 148.8L477 147.4L484 147.6L492 147.5L500 147.6L507 148.3L515 148.3L523 148.7L530 147.9L538 148.8L545 148.8L553 148.6L561 148.6L568 148.4L576 148.8L584 148.9L591 148.7L599 148.7L607 148.3L614 148.9L622 147.5L629 147.9L637 148.7L645 148.5L652 148.3L660 148.3L668 148.7L675 147.5L683 147.3L691 148.2L698 148.1L706 148.8L713 148.7L721 148.4L729 148.5L736 147.6L744 148.6L752 148.9L759 147.4L767 148.0L775 148.7L782 148.0L790 148.9L797 148.1L805 147.3L813 147.5L820 147.8L828 148.5L836 148.3L843 148.6L851 147.7L859 148.0L866 147.5L867 148.1L868 148.1L869 146.8L869 146.1L870 145.8L871 145.4L872 145.0L873 145.0L874 145.9L874 145.7L875 146.4L876 147.4L877 147.9L878 147.9L878 148.1L879 147.6L880 147.3L881 148.1L882 147.4L883 147.3L883 147.4L884 148.3L892 148.6L899 148.5L907 148.6L915 148.6L922 147.9L930 147.4L938 147.5L945 148.1L953 147.8L961 147.6L968 148.8L976 147.8L983 147.4L991 147.6L999 147.7L1000 148.1L1000 148.6L1001 147.6L1002 148.2L1003 147.3L1004 146.9L1004 147.6L1005 147.2L1006 146.0L1007 146.0L1008 146.4L1009 145.7L1009 144.1L1010 139.9L1011 135.1L1012 128.7L1013 117.7L1013 105.9L1014 95.2L1015 87.1L1016 82.8L1017 85.3L1018 92.5L1018 101.4L1019 113.7L1020 124.8L1021 132.7L1022 139.5L1022 142.3L1023 144.0L1024 145.3L1025 144.9L1026 144.3L1027 143.9L1027 143.2L1028 144.0L1029 144.3L1030 145.6L1031 145.2L1031 146.8L1032 147.3L1033 147.5L1034 147.2L1035 148.1L1036 147.4L1036 148.1L1037 148.0L1038 148.1L1039 148.9L1046 148.2L1054 148.6L1062 148.9L1069 147.6L1077 148.6L1085 148.1L1092 147.6L1093 147.8L1094 147.9L1095 147.3L1096 146.6L1096 145.5L1097 145.8L1098 144.2L1099 144.1L1100 143.7L1100 142.9L1101 143.7L1102 144.1L1103 144.3L1104 144.4L1105 145.2L1105 144.7L1106 144.5L1107 144.2L1108 143.9L1109 144.6L1109 144.9L1110 145.7L1111 145.6L1112 146.6L1113 146.8L1114 147.0L1114 148.3L1115 147.9L1116 147.3L1117 147.5L1118 148.7L1118 148.7L1119 148.2L1127 148.8L1135 148.5L1142 148.8L1150 147.8L1157 147.6L1165 147.4L1173 148.7L1180 147.7L1188 147.8L1196 148.7" />
+      </defs>
+    </svg>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="nav" data-nav>
+      <a class="nav__name" href="#top">Tom Hardy</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+        <span class="sr-only">Menu</span><span class="nav__bars" aria-hidden="true"></span>
+      </button>
+      <nav id="nav-links" class="nav__links" aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#music">Music</a>
+        <a href="#contact">Contact</a>
+        <a class="nav__cv" href="CV_tomhardy.pdf" download="Tom-Hardy-CV.pdf">CV</a>
+      </nav>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="top">
+      <div class="hero__wash" aria-hidden="true"></div>
+      <picture class="hero__photo">
+        <source media="(max-aspect-ratio: 5/4)" srcset="img/hero-portrait.webp">
+        <img src="img/hero-1800.webp" srcset="img/hero-1000.webp 1125w, img/hero-1800.webp 2025w" sizes="(min-aspect-ratio: 5/4) 113vh, 100vw"
+             alt="Tom Hardy smiling on the lawn in front of Durham Cathedral, wearing a Blue Note jazz club t-shirt" width="2025" height="1800" fetchpriority="high">
+      </picture>
+
+      <div class="hero__content">
+        <p class="eyebrow">Astrophysicist <span class="eyebrow__sep">&amp;</span> Musician</p>
+        <h1 class="hero__name">Tom Hardy</h1>
+        <div class="hero__spectrum" aria-hidden="true">
+          <svg viewBox="0 0 1200 160" preserveAspectRatio="none" class="spectrum__svg"><use href="#spec-line"/></svg>
+          <div class="spectrum__labels">
+            <span style="left: 13.9%">[O III] λ5007</span>
+            <span style="left: 84.7%">Hα</span>
+          </div>
+        </div>
+        <p class="hero__lede">
+          PhD student at the <strong> University of Cambridge </strong> (IoA), using spectrosopic population-level <strong>surveys of galaxies </strong>  to constrain the physics of their evolution.
+        </p>
+         <p class="hero__lede">
+          Award-Winning <strong>pianist  </strong> and <strong>  orchestrator</strong>.
+        </p>
+        <div class="hero__links">
+          <a class="pill pill--science" href="#research">Research <span aria-hidden="true">→</span></a>
+          <a class="pill pill--music" href="#music">Music <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+    </section>
+
+    <main id="main">
+      <!-- ===================== ABOUT ===================== -->
+      <section class="section about" id="about" data-bio-mode="both">
+        <div class="wrap about__grid">
+          <figure class="about__photo">
+            <img src="img/portico.webp" alt="Tom Hardy standing beneath the columns of a stone portico with a red door behind" width="1000" height="1250" loading="lazy">
+          </figure>
+          <div class="about__text">
+            <div class="bio-bar">
+              <p class="kicker">About</p>
+              <div class="bio-tabs" role="tablist" aria-label="Choose a bio">
+                <button type="button" role="tab" id="bio-tab-both" aria-controls="bio-panel-both" aria-selected="true" data-bio="both">Overview</button>
+                <button type="button" role="tab" id="bio-tab-astro" aria-controls="bio-panel-astro" aria-selected="false" tabindex="-1" data-bio="astro">Astrophysics</button>
+                <button type="button" role="tab" id="bio-tab-music" aria-controls="bio-panel-music" aria-selected="false" tabindex="-1" data-bio="music">Music</button>
+              </div>
+            </div>
+
+            <div class="bio" id="bio-panel-both" role="tabpanel" aria-labelledby="bio-tab-both" tabindex="0">
+              <p class="about__statement">
+                I'm an astrophysicist who uses surveys of galaxies to constrain the physics of their evolution.
+              </p>
+              <p>
+                I finished my MPhys in Physics and Astronomy at Durham University in 2026, graduating at the top of my class with a thesis on a small
+                survey of Extreme Emission Line Galaxies in the fields of VLT/MUSE IFU observations, under the supervision of Prof Alastair Edge.
+              </p>
+              <p>
+                I now dedicate most of my time to studying the chemical and population-level stellar evolution of galaxies around and earlier than
+                cosmic noon, largely using population-level surveys. I have a particular interest in large spectroscopic surveys, integral field
+                spectroscopy, and low-mass/metal-poor galaxies.
+              </p>
+              <p>
+                In my spare time, I'm a pianist and orchestrator, writing for commercial and jazz ensembles.
+              </p>
+            </div>
+
+            <div class="bio" id="bio-panel-astro" role="tabpanel" aria-labelledby="bio-tab-astro" tabindex="0" hidden>
+              <p class="about__statement">
+                I study the chemical and population-level stellar evolution of galaxies around and earlier than cosmic noon.
+              </p>
+              <p>
+                I began an undergraduate MPhys at the University of Durham in 2022, finishing in 2026 with First Class Honours. Following publication
+                at the end of my first year, I joined Astrophysics at Oxford University as a research intern for the summer of 2024 in the Galaxies
+                Research Group, where I developed HPC tools for HI detection with MeerKAT; I then joined the IoA at Cambridge as a research intern at
+                the end of my third year to work on simulation-based inference for gravitational waves. My master's thesis at Durham's Centre for
+                Extragalactic Astronomy involved a small VLT/MUSE survey of extreme emission line galaxies, investigating their extreme star formation
+                and environment.
+              </p>
+              <p>
+                I hold the Durham Physics Department's D A Wright Astronomy Prize (2026, for top performance on the MPhys Physics &amp; Astronomy
+                track), the Advanced Astrophysics Prize (2026), Florence Nightingale Prize (2025, Astrolab), and Discovery Skills (2023, 1st-year
+                laboratory) award. While at Durham I worked under Will Yeadon on the impact of generative AI on education, which won the IoP 2026
+                Jackson Medal. Alongside this I co-chaired the Physics SVC and sat on the Board of Studies, with additional involvement in outreach to
+                local schools.
+              </p>
+              <p>
+                After receiving 8 PhD offers across Europe, I recently began PhD research at Cambridge funded by the STFC; my other offers included a
+                Hintze Scholarship (Oxford), the Cavendish Laboratory (Cambridge), Max Planck, and Leiden University.
+              </p>
+            </div>
+
+            <div class="bio" id="bio-panel-music" role="tabpanel" aria-labelledby="bio-tab-music" tabindex="0" hidden>
+              <p class="about__statement">
+                I'm a pianist and orchestrator, with writing described as both <em>“outstanding”</em> and <em>“crackling”</em> by JazzWise magazine.
+              </p>
+              <p>
+                Clients for my work include the Metropole Orkest, Danish Radio Big Band and the Royal Netherlands Air Force Orchestra. Commission
+                venue highlights include the London Palladium, the Barbican Centre, Cheltenham Festival, Ronnie Scott's, and the Konzerthaus Berlin.
+              </p>
+              <p>
+                In 2025 I won the Au Arranging Prize and Durham's Full Palatinate for ‘Outstanding Contribution to Music’; in 2026 I then won the
+                Half Palatinate for ‘Best Musical Director’. I am currently a Cambridge choral scholar at Gonville and Caius College.
+              </p>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== RESEARCH ===================== -->
+      <section class="section research" id="research">
+        <div class="wrap">
+          <header class="section__head">
+            <p class="kicker"><span class="kicker__num">I.</span> Astrophysics</p>
+            <h2>Research</h2>
+          </header>
+
+          <div class="now">
+            <div class="now__label">
+              <span class="dot" aria-hidden="true"></span> Current project · 2026–2030
+            </div>
+            <h3 class="now__title">Population insights from spectral tracers of galaxy evolution</h3>
+            <p class="now__meta">
+              PhD, Institute of Astronomy, University of Cambridge · Supervised by Hiranya Peiris &amp; Boryana Hadzhiyska · Funded by an STFC Doctoral Landscape Award
+            </p>
+            <ul class="tags" aria-label="Research interests">
+              <li>Galaxy evolution around cosmic noon</li>
+              <li>Large spectroscopic surveys</li>
+              <li>Integral field spectroscopy</li>
+            </ul>
+          </div>
+
+          <div class="research__grid">
+            <figure class="research__photo">
+              <img src="img/talk-gw.webp" alt="Tom Hardy presenting in a lecture theatre, beneath a projected simulation of a gravitational-wave signal from a binary merger" width="1037" height="1600" loading="lazy">
+              <figcaption>Presenting gravitational-wave work.</figcaption>
+            </figure>
+
+            <div class="research__body">
+              <p class="lead">
+                I began an undergraduate MPhys at the University of Durham in 2022, finishing in 2026 with First Class Honours. Along the way
+                I've worked across astronomy from LIGO to MeerKAT, at Oxford, Cambridge and Durham.
+              </p>
+
+              <h3 class="subhead">Research experience</h3>
+              <ol class="timeline">
+                <li>
+                  <span class="timeline__when">2025–26</span>
+                  <div>
+                    <p class="timeline__where">MPhys thesis · Centre for Extragalactic Astronomy, Durham</p>
+                    <p class="timeline__what">Extreme Emission Line Galaxies in the Fields of Massive Clusters with VLT/MUSE</p>
+                    <p class="timeline__note">Supervised by Prof Alastair Edge. A small VLT/MUSE survey of extreme emission line galaxies, investigating their extreme star formation and environment, and building a representative population of nearby EELGs as spectral analogues for high-redshift JADES candidates.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="timeline__when">2025</span>
+                  <div>
+                    <p class="timeline__where">Research intern · Institute of Astronomy, Cambridge</p>
+                    <p class="timeline__what">Machine Learning Tools for Gravitational Wave Mismodelling</p>
+                    <p class="timeline__note">Supervised by Dr James Alvey. Simulation-based inference for gravitational waves, in collaboration with researchers at UVA and MPA Garching, with follow-up work with the LVK collaboration.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="timeline__when">2024</span>
+                  <div>
+                    <p class="timeline__where">Research intern · Galaxies Research Group, Oxford</p>
+                    <p class="timeline__what">Source Extraction for Radio-Detected HI Galaxies</p>
+                    <p class="timeline__note">Supervised by Prof Matt Jarvis and Dr Catherine Hale. Built HPC tools for HI detection with MeerKAT, looking ahead to large surveys with the SKA.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="timeline__when">2024</span>
+                  <div>
+                    <p class="timeline__where">Astrolab · Durham University</p>
+                    <p class="timeline__what">A Comprehensive Photometric Model for the W-Type Binary GW Cep</p>
+                    <p class="timeline__note">Supervised by Profs Mark Swinbank &amp; Alastair Edge. Awarded the Florence Nightingale Prize.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="timeline__when">2023</span>
+                  <div>
+                    <p class="timeline__where">Summer research · Durham University</p>
+                    <p class="timeline__what">The Impact of AI in Physics Education: A Comprehensive Review from GCSE to University Levels</p>
+                    <p class="timeline__note">With Dr Will Yeadon, on the impact of generative AI on education. This work won the IoP 2026 Jackson Medal.</p>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <h3 class="card__title">Publications</h3>
+              <p class="card__big">3</p>
+              <p>Papers published during my degree, once as co-lead author, with 130+ citations.</p>
+              <!-- TODO: add a publication list here if you'd like one -->
+              <p><a class="link" href="https://orcid.org/0009-0004-2616-7076">Full list on ORCID <span aria-hidden="true">↗</span></a></p>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Talks</h3>
+              <ul class="list">
+                <li><span class="list__when">Nov 2025</span> Precision Machine Learning Tools for Gravitational Wave Models. <em>Institute of Astronomy, Cambridge. Invited, IoA Alumni 30-year anniversary.</em></li>
+                <li><span class="list__when">Aug 2025</span> Machine Learning Techniques to Detect Gravitational Wave Mismodelling. <em>Institute of Astronomy, Cambridge</em></li>
+                <li><span class="list__when">Aug 2024</span> Source Extraction for Radio-Detected Hydrogen Galaxies. <em>Department of Physics, and Exeter College, Oxford</em></li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Prizes</h3>
+              <ul class="list">
+                <li><span class="list__when">2026</span> D A Wright Astronomy Prize, for top performance on the MPhys Physics &amp; Astronomy track</li>
+                <li><span class="list__when">2026</span> Advanced Astrophysics Prize</li>
+                <li><span class="list__when">2025</span> Florence Nightingale Prize (Astrolab)</li>
+                <li><span class="list__when">2023</span> Discovery Skills Award (1st-year laboratory)</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="durham">
+            <div>
+              <h3 class="subhead">Durham, 2022–2026</h3>
+              <p>
+                MPhys Physics &amp; Astronomy, First Class in all years, with a final-year average of 82%. Courses included General Relativity &amp;
+                Structure Cosmology, Radiative Astrophysics &amp; Advanced Instrumentation, Star &amp; Galaxy Formation, and Condensed Matter Physics.
+              </p>
+            </div>
+            <div>
+              <h3 class="subhead">Service</h3>
+              <p>
+                Co-chair of the Physics Staff-Student Committee and student representative on the Board of Studies, with additional involvement in
+                outreach to local schools.
+              </p>
+            </div>
+            <div>
+              <h3 class="subhead">Next</h3>
+              <p>
+                After receiving 8 PhD offers across Europe, including a Hintze Scholarship (Oxford), the Cavendish Laboratory (Cambridge),
+                Max Planck and Leiden University, I began PhD research at Cambridge funded by the STFC.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== SPECTRUM DIVIDER ===================== -->
+      <div class="spectrum" aria-hidden="true">
+        <svg viewBox="0 0 1200 160" preserveAspectRatio="none" class="spectrum__svg"><use href="#spec-line"/></svg>
+        <div class="spectrum__labels">
+          <span style="left: 7.3%">Hβ</span>
+          <span style="left: 13.9%">[O III] λ5007</span>
+          <span style="left: 84.7%">Hα</span>
+          <span style="left: 92%">[S II]</span>
+        </div>
+      </div>
+
+      <!-- ===================== MUSIC ===================== -->
+      <section class="section music" id="music">
+        <div class="music__banner">
+          <img src="img/piano-stage.webp" alt="Tom Hardy at the piano on a dark stage, lit in purple with a spotlight behind" width="2000" height="1331" loading="lazy">
+          <div class="music__banner-text wrap">
+            <header class="section__head">
+              <p class="kicker"><span class="kicker__num">II.</span> Pianist &amp; orchestrator</p>
+              <h2>Music</h2>
+            </header>
+            <blockquote class="press">
+              <p><em>“outstanding”</em> and <em>“crackling.”</em></p>
+              <footer>JazzWise magazine</footer>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="music__intro">
+            <p class="lead">
+              I'm a pianist, orchestrator and engraver. Clients for my work include the Metropole Orkest, Danish Radio Big Band and the Royal Netherlands
+              Air Force Orchestra, and I was previously an in-house arranger for NYJO.
+            </p>
+            <p>
+              In 2025 I won the Au Arranging Prize and Durham's Full Palatinate for ‘Outstanding Contribution to Music’; in 2026 I then won the
+              Half Palatinate for ‘Best Musical Director’. I am currently a Cambridge choral scholar at Gonville and Caius College.
+            </p>
+          </div>
+
+          <div class="music__cols">
+            <div>
+              <h3 class="subhead">Ensembles</h3>
+              <ul class="plain">
+                <li>Metropole Orkest</li>
+                <li>Danish Radio Big Band</li>
+                <li>Royal Netherlands Air Force Orchestra</li>
+                <li>NYJO (in-house arranger)</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="subhead">Commission venues</h3>
+              <ul class="plain">
+                <li>Barbican Centre</li>
+                <li>Cheltenham Festival</li>
+                <li>Ronnie Scott's</li>
+                <li>Konzerthaus Berlin</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="subhead">Prizes</h3>
+              <ul class="plain plain--dated">
+                <li><span>2025</span> Au Arranging Prize</li>
+                <li><span>2025</span> Full Palatinate, Outstanding Contribution to Music</li>
+                <li><span>2026</span> Half Palatinate, Best Musical Director</li>
+                <li><span>2024–26</span> Palatinates for Best Concert (Half ’24 &amp; ’25, Full ’26)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="directing">
+            <figure class="directing__photo">
+              <img src="img/conducting-arches.webp" alt="Tom Hardy conducting a big band beneath lit stone arches, saxophonists in the foreground" width="1600" height="1066" loading="lazy">
+            </figure>
+            <div class="directing__text">
+              <h3 class="subhead">Directing</h3>
+              <p>
+                At Durham I directed the Jazz Orchestra (2023–24), the Big Band (2024–26) and the Studio Orchestra (2026). With the Big Band
+                I led two national tours, including 2025's ‘Unspoken Voices’, which highlighted marginalised voices in jazz, and was awarded over
+                £8,000 in arts grants.
+              </p>
+              <p>
+                I headlined at Ronnie Scott's in 2023, and represented NYJO to HRH Prince Edward the same year.
+              </p>
+            </div>
+          </div>
+
+          <div class="gallery" data-gallery>
+            <button class="gallery__item g-tall" type="button"><img src="img/conducting-bw.webp" alt="Black and white photo of Tom Hardy conducting, arms outstretched, a singer behind" width="1067" height="1600" loading="lazy"></button>
+            <button class="gallery__item g-wide" type="button"><img src="img/big-band.webp" alt="Tom Hardy conducting a full big band on a wooden stage, seen from behind" width="1600" height="1067" loading="lazy"></button>
+            <button class="gallery__item" type="button"><img style="object-position: 50% 22%" src="img/flugelhorn.webp" alt="Tom Hardy playing flugelhorn under a stage light" width="853" height="1280" loading="lazy"></button>
+            <button class="gallery__item" type="button"><img style="object-position: 50% 30%" src="img/trumpet-keys.webp" alt="Tom Hardy playing trumpet with one hand and keyboard with the other" width="1283" height="1400" loading="lazy"></button>
+            <button class="gallery__item g-wide" type="button"><img src="img/piano-bw.webp" alt="Black and white photo of Tom Hardy smiling at a grand piano" width="1600" height="1060" loading="lazy"></button>
+            <button class="gallery__item g-tall" type="button"><img src="img/conducting-orchestra.webp" alt="Tom Hardy conducting a string orchestra with a baton" width="932" height="1400" loading="lazy"></button>
+            <button class="gallery__item g-wide" type="button"><img src="img/vocalist.webp" alt="Tom Hardy singing on stage beside a vocalist, big band behind" width="1600" height="1000" loading="lazy"></button>
+            <button class="gallery__item g-tall" type="button"><img src="img/piano-orange.webp" alt="Tom Hardy playing a keyboard in front of a wall of framed prints, lit orange" width="933" height="1400" loading="lazy"></button>
+            <button class="gallery__item g-wide" type="button"><img style="object-position: 50% 20%" src="img/deanst.webp" alt="Tom Hardy in a tuxedo at the keyboard on a lit stage, laughing with a guitarist beside him" width="1280" height="853" loading="lazy"></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== CONTACT ===================== -->
+      <section class="section contact" id="contact">
+        <div class="wrap contact__grid">
+          <div>
+            <p class="kicker">Contact</p>
+            <h2 class="contact__title">Get in touch</h2>
+            <p class="contact__sub">For research, commissions and everything else.</p>
+          </div>
+          <ul class="contact__links">
+            <li><a href="#contact" data-email="tgh35|ast.cam.ac.uk"><span>Email</span> tgh35 [at] ast.cam.ac.uk</a></li>
+            <li><a href="https://orcid.org/0009-0004-2616-7076"><span>ORCID</span> 0009-0004-2616-7076</a></li>
+            <li><a href="https://github.com/0hardytom"><span>GitHub</span> 0hardytom</a></li>
+            <li><a href="https://www.linkedin.com/in/tomhardy1219"><span>LinkedIn</span> tomhardy1219</a></li>
+            <li><a href="CV_tomhardy.pdf" download="Tom-Hardy-CV.pdf"><span>CV</span> Download (PDF)</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <span>© <span data-year>2026</span> Tom Hardy</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" data-lightbox aria-label="Photo viewer">
+      <img alt="">
+      <button class="lightbox__close" type="button" data-lightbox-close aria-label="Close">×</button>
+    </dialog>
   </body>
 </html>
