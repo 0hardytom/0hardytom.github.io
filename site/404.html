@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Under Maintenance | Tom Hardy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+      }
+      body {
+        background: #111 url("/maintenance-landscape.jpg") center / cover no-repeat;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        font-family: "Inter", system-ui, -apple-system, sans-serif;
+      }
+      h1 {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding: 20vh 16px 8vh;
+        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
+        color: #fff;
+        font-size: clamp(2rem, 9vw, 7rem);
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 2px 24px rgba(0, 0, 0, 0.6);
+      }
+      @media (orientation: portrait) {
+        body {
+          background-image: url("/maintenance-portrait.jpg");
+        }
+        h1 {
+          font-size: 11vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Under Maintenance</h1>
+  </body>
+</html>
