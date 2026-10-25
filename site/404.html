@@ -6,7 +6,7 @@
     <title>Under Maintenance | Tom Hardy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <style>
       html, body {
         margin: 0;
@@ -17,7 +17,7 @@
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        font-family: "Inter", system-ui, -apple-system, sans-serif;
+        font-family: "Archivo Black", "Arial Black", sans-serif;
       }
       h1 {
         box-sizing: border-box;
@@ -25,26 +25,23 @@
         margin: 0;
         padding: 20vh 16px 8vh;
         background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
-        color: #fff;
-        font-size: clamp(2rem, 9vw, 7rem);
-        line-height: 1.05;
-        font-weight: 700;
-        letter-spacing: 0.02em;
+        color: rgba(255, 255, 255, 0.35);
+        -webkit-text-stroke: max(2px, 0.02em) #fff;
+        /* "MAINTENANCE" is ~8.3em wide in Archivo Black; fit it to the screen */
+        font-size: min(calc((100vw - 32px) / 8.6), 20vh);
+        line-height: 1;
+        font-weight: 400;
         text-align: center;
         text-transform: uppercase;
-        text-shadow: 0 2px 24px rgba(0, 0, 0, 0.6);
       }
       @media (orientation: portrait) {
         body {
           background-image: url("/maintenance-portrait.jpg");
         }
-        h1 {
-          font-size: 11vw;
-        }
       }
     </style>
   </head>
   <body>
-    <h1>Under Maintenance</h1>
+    <h1>Under<br>Maintenance</h1>
   </body>
 </html>
